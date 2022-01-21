@@ -8,4 +8,4 @@ for(n=1; n<=cantidadUsuarios;n++){
     sumaDeUsuarios= sumaDeUsuarios + edadUsuarios;
 }
 
-alert('El promedio de edades de los cantidadUsuarios Usuarios es: sumaDeUsuarios/cantidadUsuarios')
+alert('El promedio de edades de los ' + cantidadUsuarios + ' Usuarios es de: ' + parseInt(sumaDeUsuarios/cantidadUsuarios) + ' años')
