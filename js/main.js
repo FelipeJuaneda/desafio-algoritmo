@@ -1,9 +1,8 @@
 let cantidadUsuarios = parseInt(prompt("Indique cuantos usuarios se registraran"));
-let edadUsuarios;
 let sumaDeUsuarios = 0;
 let n;
 
-for(n=1; n<=cantidadUsuarios;n++){
+for(let n=1; n<=cantidadUsuarios;n++){
     edadUsuarios=parseInt(prompt("Ingrese la edad del usuario"+n));
     sumaDeUsuarios= sumaDeUsuarios + edadUsuarios;
 }
